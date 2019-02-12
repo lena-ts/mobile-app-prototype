@@ -580,6 +580,8 @@ h3 {
     .user__header-info-name {
       font-weight: 500;
       font-size: 17px; }
+    .user__header-info-phone {
+      margin-top: 5px; }
     .user__header-info .btn-edit {
       font-size: 13px;
       margin-top: 10px; }
