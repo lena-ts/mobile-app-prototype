@@ -12,4 +12,8 @@ $(document).ready(function(){
 		$(this).parent().removeClass('visible');
 	});
 	
+	$('.main-filters__item').click(function(){
+		$(this).toggleClass('active');
+	});
+	
 });

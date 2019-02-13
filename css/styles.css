@@ -163,7 +163,7 @@ h3 {
     font-size: 14px;
     margin-right: 3px;
     cursor: pointer; }
-    .main-filters__item:hover {
+    .main-filters__item:hover, .main-filters__item.active {
       background: #fed95a;
       border-color: #fed95a; }
   .main-filters .filters {
@@ -184,6 +184,8 @@ h3 {
       .main-filters .filters-overlay .city.active, .main-filters .filters-overlay .city:hover {
         background: #f4f7f8;
         border-radius: 5px; }
+  .main-filters .bootstrap-select {
+    margin-bottom: 15px; }
 
 .rent-items-list {
   padding: 15px 15px 0 15px; }
@@ -235,8 +237,7 @@ h3 {
   font-size: 1.1rem; }
 
 #rental-form .form-group label {
-  font-weight: 500;
-  margin-bottom: 1rem; }
+  margin-bottom: 0.5rem; }
 
 #rental-form .form-group .form-control {
   border: 0px;
@@ -274,7 +275,7 @@ h3 {
   padding: 0; }
   .item-brand__name label {
     cursor: pointer;
-    font-weight: normal;
+    font-weight: 400;
     margin-bottom: 0.8px;
     font-size: 14px; }
   .item-brand__name input {
@@ -662,3 +663,19 @@ h3 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
     height: 45px;
     line-height: 32px; }
+
+.bootstrap-select {
+  width: 100% !important; }
+  .bootstrap-select .btn {
+    background: white !important;
+    border-color: white !important;
+    border: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    height: 45px;
+    line-height: 32px;
+    outline: none !important; }
+  .bootstrap-select .dropdown-item.active,
+  .bootstrap-select .dropdown-item:active {
+    background-color: #fed95a !important;
+    color: black; }
