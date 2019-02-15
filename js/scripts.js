@@ -16,4 +16,8 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 	});
 	
+	$('.product-title__like').click(function(){
+		$(this).toggleClass('active');
+	});
+	
 });
